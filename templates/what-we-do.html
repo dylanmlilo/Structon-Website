@@ -1,0 +1,191 @@
+{% extends "index.html" %}
+
+{% block content %}
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-slider">
+      <!-- Slides will be added here by JavaScript -->
+    </div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="section-heading dark-blue">
+          <h1>What We Do</h1>
+          <div class="heading-line top-heading-line"></div>
+          <h3>Comprehensive Civil Engineering Solutions</h3>
+        </div>
+      </div>
+    </div>
+    <!-- Navigation buttons -->
+    <button class="slider-nav prev" aria-label="Previous image">
+      <i class="fas fa-chevron-left"></i>
+    </button>
+    <button class="slider-nav next" aria-label="Next image">
+      <i class="fas fa-chevron-right"></i>
+    </button>
+    <!-- Dots navigation -->
+    <div class="slider-dots"></div>
+  </section>
+
+  <!-- Services Overview Section -->
+  <section class="overview-section">
+    <div class="container">
+      <div class="section-heading dark-blue">
+        <h2>Our Services</h2>
+        <div class="heading-line"></div>
+      </div>
+      <p class="overview-text">
+        Structon Investments provides end-to-end civil engineering solutions, from initial concept to final construction. Our multidisciplinary approach combines technical expertise with innovative thinking to deliver infrastructure that stands the test of time.
+      </p>
+    </div>
+  </section>
+
+  <!-- Core Services Section -->
+  <section class="services-section">
+    <div class="container">
+      <div class="section-heading dark-blue">
+        <h2>Core Services</h2>
+        <div class="heading-line"></div>
+      </div>
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-road"></i>
+          </div>
+          <h3>Road & Highway Design</h3>
+          <ul>
+            <li>Roads & highways</li>
+            <li>Bridges & overpasses</li>
+            <li>Drainage systems</li>
+            <li>Utility networks</li>
+          </ul>
+        </div>
+        
+        <!-- Service 2 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-building"></i>
+          </div>
+          <h3>Construction Management</h3>
+          <ul>
+            <li>Project scheduling</li>
+            <li>Quality control</li>
+            <li>Cost management</li>
+            <li>Safety oversight</li>
+          </ul>
+        </div>
+        
+        <!-- Service 3 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-water"></i>
+          </div>
+          <h3>Water Resources</h3>
+          <ul>
+            <li>Water systems design</li>
+            <li>Wastewater systems design</li>
+            <li>Hydraulic modeling</li>
+          </ul>
+        </div>
+        
+        <!-- Service 4 -->
+        <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3>Structural Engineering</h3>
+            <ul>
+              <li>Buildings</li>
+              <li>Retaining walls</li>
+              <li>Structural analysis</li>
+              <li>Portal frame design</li>
+            </ul>
+        </div>
+        
+        <!-- Service 5 -->
+        <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-map-marked-alt"></i>
+            </div>
+            <h3>Land Development</h3>
+            <ul>
+              <li>Site planning</li>
+              <li>Grading design</li>
+              <li>Subdivision design</li>
+              <li>House plan drawing</li>
+            </ul>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Approach Section -->
+  <section class="approach-section dark-bg">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Our Project Approach</h2>
+        <div class="heading-line"></div>
+      </div>
+      <div class="approach-steps">
+        <div class="approach-step">
+          <div class="step-number">1</div>
+          <h3>Discovery & Planning</h3>
+          <p>Comprehensive site analysis and needs assessment to establish project parameters.</p>
+        </div>
+        <div class="approach-step">
+          <div class="step-number">2</div>
+          <h3>Concept Development</h3>
+          <p>Creating innovative design concepts that balance functionality, aesthetics, and budget.</p>
+        </div>
+        <div class="approach-step">
+          <div class="step-number">3</div>
+          <h3>Detailed Design</h3>
+          <p>Precision engineering with thorough documentation and specifications.</p>
+        </div>
+        <div class="approach-step">
+          <div class="step-number">4</div>
+          <h3>Implementation</h3>
+          <p>Construction oversight with rigorous quality control and schedule management.</p>
+        </div>
+        <div class="approach-step">
+          <div class="step-number">5</div>
+          <h3>Project Closeout</h3>
+          <p>Final inspections, documentation, and client handover with ongoing support.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technology Section -->
+  <section class="technology-section">
+    <div class="container">
+      <div class="section-heading dark-blue">
+        <h2>Our Technology</h2>
+        <div class="heading-line"></div>
+      </div>
+      <div class="tech-grid">
+        <div class="tech-card">
+          <i class="fas fa-cube"></i>
+          <h3>3D Modeling & BIM</h3>
+          <p>Advanced Building Information Modeling for collaborative, clash-free designs.</p>
+        </div>
+        <div class="tech-card">
+          <i class="fas fa-drafting-compass"></i>
+          <h3>CAD Design</h3>
+          <p>Precision computer-aided design with industry-standard software.</p>
+        </div>
+        <div class="tech-card">
+          <i class="fas fa-map"></i>
+          <h3>GIS Integration</h3>
+          <p>Geographic Information Systems for spatial analysis and planning.</p>
+        </div>
+        <div class="tech-card">
+            <i class="fas fa-calculator"></i>
+            <h3>Cost Estimation</h3>
+            <p>AI-powered tools for accurate project budgeting and cost control.</p>
+          </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

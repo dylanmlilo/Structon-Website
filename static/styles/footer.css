@@ -1,0 +1,105 @@
+footer {
+    position: relative;
+    color: white;
+    padding: 50px 0 0;
+}
+
+.footer-overlay {
+    background: rgba(8, 58, 103, 0.85); /* Semi-transparent overlay */
+    padding: 50px 20px;
+}
+
+.footer-overlay h5 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+p, .footer-nav li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav li {
+    margin-bottom: 10px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.85);
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+    color: #4da8da!important;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease-in-out, color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #4da8da;
+    transform: scale(1.1);
+}
+
+.footer-divider {
+    border-color: rgba(255, 255, 255);
+    margin: 30px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.copyright {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.back-to-top {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.back-to-top:hover {
+    color: #4da8da;
+}
+
+.container .email {
+    color: white;
+    text-decoration: none;
+}
+
+.container .email:hover {
+    color: #4da8da;
+    text-decoration: none;
+}
+
+.address-line {
+    display: inline-block;
+    padding-left: 20px; /* Adjust this value to control indentation */
+    text-indent: -20px; /* This pulls the text back to align with the icon */
+  }
+  
+.address-line:before {
+content: "";
+display: inline-block;
+width: 20px;
+}

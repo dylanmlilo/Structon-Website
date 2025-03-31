@@ -1,0 +1,202 @@
+/* Services Section */
+.services-section {
+    padding: 80px 0;
+    background: #f9f9f9;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+  }
+  
+  .service-card {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+  
+  .service-icon {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+  }
+  
+  .service-card h3 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .service-card ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .service-card li {
+    padding: 5px 0;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .service-card li:before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+  }
+  
+  /* Approach Section */
+  .approach-section {
+    padding: 80px 0;
+    background: linear-gradient(rgba(185, 185, 185, 0.8), rgba(0,0,0,0.8)), url('../images/construction-bg.jpg');
+    background-size: cover;
+    color: white;
+  }
+  
+  .approach-steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 20px;
+  }
+  
+  .approach-step {
+    flex: 1;
+    min-width: 200px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+    padding: 30px;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  .step-number {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    background: var(--primary-color);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  /* Technology Section */
+  .technology-section {
+    padding: 80px 0;
+  }
+  
+  .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+  }
+  
+  .tech-card {
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .tech-card:hover {
+    background: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transform: translateY(-5px);
+  }
+  
+  .tech-card i {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+  }
+  
+  /* Projects Section */
+  .projects-section {
+    padding: 80px 0 0;
+  }
+  
+  .projects-slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 30px;
+    padding: 20px 0;
+    scroll-snap-type: x mandatory;
+    margin-top: 50px;
+  }
+  
+  .project-card {
+    min-width: 350px;
+    scroll-snap-align: start;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .project-card:hover img {
+    transform: scale(1.05);
+  }
+  
+  .project-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+    color: white;
+    padding: 30px;
+  }
+  
+  /* CTA Section */
+  .cta-section {
+    padding: 80px 0;
+    text-align: center;
+    background: #d3d3d3;
+    color: #175771;
+    margin-top: 50px;
+  }
+  
+  .cta-section .btn {
+    display: inline-block;
+    background: #175771;
+    color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+  
+  .btn-large {
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    margin-top: 20px;
+  }

@@ -1,0 +1,311 @@
+{% extends "index.html" %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero-section">
+  <div class="hero-slider">
+    <!-- Slides will be added here by JavaScript -->
+  </div>
+  <div class="container">
+    <div class="hero-content">
+      <div class="section-heading">
+        <h1>Our Projects</h1>
+        <div class="heading-line top-heading-line"></div>
+        <h3>Engineering Excellence in Action</h3>
+      </div>
+    </div>
+  </div>
+  <!-- Navigation buttons -->
+  <button class="slider-nav prev" aria-label="Previous image">
+    <i class="fas fa-chevron-left"></i>
+  </button>
+  <button class="slider-nav next" aria-label="Next image">
+    <i class="fas fa-chevron-right"></i>
+  </button>
+  <!-- Dots navigation -->
+  <div class="slider-dots"></div>
+</section>
+
+<!-- Projects Grid Section -->
+<section class="projects-grid-section">
+  <div class="container">
+    <!-- Portfolio Introduction -->
+    <div class="portfolio-intro">
+      <div class="section-heading">
+        <h2>Featured Works</h2>
+        <div class="heading-line"></div>
+        <p class="portfolio-description">
+          Explore our curated collection of landmark projects that showcase our commitment to 
+          innovative design and exceptional craftsmanship across residential and commercial spaces.
+        </p>
+      </div>
+    </div>
+    
+    <div class="projects-grid">
+      <!-- Pumula Filling Station Braai Area -->
+      <div class="project-item" id="pumula-braai" data-category="commercial">
+        <div class="project-image">
+          <div class="swiper project-swiper">
+            <div class="swiper-wrapper">
+              <!-- Images will be injected here by JavaScript -->
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <div class="project-overlay">
+            <h3>Pumula Filling Station Braai Area</h3>
+            <p>Premium Commercial Leisure Space</p>
+          </div>
+        </div>
+        <div class="project-details">
+          <h3>Pumula Filling Station Braai Area</h3>
+          <div class="project-meta">
+            <span><i class="fas fa-map-marker-alt"></i> Bulawayo, Zimbabwe</span>
+            <span><i class="fas fa-calendar-alt"></i> 2023-2024</span>
+          </div>
+          <p>
+            An architectural masterpiece blending functionality with aesthetic appeal, this braai area transforms a standard filling station into a premium leisure destination.
+            Featuring custom-designed steel structures, ambient lighting, and durable yet beautiful finishes, the space offers both daytime comfort and enchanting evening atmosphere.
+          </p>
+        </div>
+      </div>
+      
+      <!-- Urban Horizon Mall -->
+      <div class="project-item" id="urban-horizon-mall" data-category="commercial">
+        <div class="project-image">
+          <div class="swiper project-swiper">
+            <div class="swiper-wrapper">
+              <!-- Images will be injected here by JavaScript -->
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <div class="project-overlay">
+            <h3>Urban Horizon Mall</h3>
+            <p>Premium Retail & Lifestyle Destination</p>
+          </div>
+        </div>
+        <div class="project-details">
+          <h3>Urban Horizon Mall</h3>
+          <div class="project-meta">
+            <span><i class="fas fa-map-marker-alt"></i> Harare, Zimbabwe</span>
+            <span><i class="fas fa-calendar-alt"></i> 2023-Present</span>
+          </div>
+          <p>
+            A visionary retail complex blending modern architecture with sustainable design.
+            Featuring 30+ stores, a state-of-the-art cinema complex, gourmet dining precinct, and innovative rainwater harvesting systems.
+            The mall's signature glass atrium floods the space with natural light while maintaining energy efficiency.
+          </p>
+        </div>
+      </div>
+      
+      <!-- Habek SDA Church Plans -->
+      <div class="project-item" id="habek-church" data-category="religious">
+        <div class="project-image">
+          <div class="swiper project-swiper">
+            <div class="swiper-wrapper">
+              <!-- Images will be injected here by JavaScript -->
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <div class="project-overlay">
+            <h3>Habek SDA Church</h3>
+            <p>Architectural & Structural Plans</p>
+          </div>
+        </div>
+        <div class="project-details">
+          <h3>Habek SDA Church</h3>
+          <div class="project-meta">
+            <span><i class="fas fa-map-marker-alt"></i> Bulawayo, Zimbabwe</span>
+            <span><i class="fas fa-calendar-alt"></i> 2024</span>
+          </div>
+          <p>
+            Complete structural engineering package for the Habek SDA Church, including foundation plans, structural framing details, and roof truss design.
+            The plans feature reinforced concrete construction with detailed steel connections and load calculations for optimal safety and durability.
+          </p>
+        </div>
+      </div>
+
+      <!-- Queensdale House -->
+      <div class="project-item" id="queensdale-house" data-category="residential">
+        <div class="project-image">
+          <div class="swiper project-swiper">
+            <div class="swiper-wrapper">
+              <!-- Images will be injected here by JavaScript -->
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <div class="project-overlay">
+            <h3>Queensdale Residential House</h3>
+            <p>Modern Family Home</p>
+          </div>
+        </div>
+        <div class="project-details">
+          <h3>Queensdale Residential House</h3>
+          <div class="project-meta">
+            <span><i class="fas fa-map-marker-alt"></i> Queensdale, Bulawayo</span>
+            <span><i class="fas fa-calendar-alt"></i> 2024</span>
+          </div>
+          <p>
+            Complete brick house construction with beam design and structural certification.
+            Our full-service delivery included architectural planning, structural beam calculations, project management, and on-site construction.
+            The project features traditional brick construction with reinforced concrete beams and full structural certification.
+          </p>
+        </div>
+      </div>
+
+      <!-- Proposed Butchery & Sports Bar -->
+      <div class="project-item" id="butchery-sportsbar" data-category="commercial">
+        <div class="project-image">
+          <div class="swiper project-swiper">
+            <div class="swiper-wrapper">
+              <!-- Images will be injected here by JavaScript -->
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <div class="project-overlay">
+            <h3>Proposed Butchery & Sports Bar</h3>
+            <p>Integrated Meat Processing & Entertainment Facility</p>
+          </div>
+        </div>
+        <div class="project-details">
+          <h3>Proposed Butchery & Sports Bar</h3>
+          <div class="project-meta">
+            <span><i class="fas fa-map-marker-alt"></i> Bulawayo, Zimbabwe</span>
+            <span><i class="fas fa-calendar-alt"></i> 2024</span>
+          </div>
+          <p>
+            Structural design for a two-story commercial building featuring reinforced concrete construction.
+            The engineering plans include detailed calculations for load-bearing elements,
+            staircase structural integration, and foundation systems designed for the specific site conditions.
+            All structural components were designed to meet commercial building code requirements.
+          </p>
+        </div>
+      </div>
+
+      <!-- Luxury Residential House Architectural Plan -->
+      <div class="project-item" id="luxury-house-plan" data-category="residential">
+        <div class="project-image">
+          <div class="swiper project-swiper">
+            <div class="swiper-wrapper">
+              <!-- Images will be injected here by JavaScript -->
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <div class="project-overlay">
+            <h3>Luxury Residential House</h3>
+            <p>Premium Architectural Design</p>
+          </div>
+        </div>
+        <div class="project-details">
+          <h3>Luxury Residential House</h3>
+          <div class="project-meta">
+            <span><i class="fas fa-map-marker-alt"></i> Bulawayo, Zimbabwe</span>
+            <span><i class="fas fa-calendar-alt"></i> 2024</span>
+          </div>
+          <p>
+            Exquisite architectural design for a luxury residence featuring elegant contemporary lines and premium finishes.
+            The plan includes a grand entrance foyer, open-concept living spaces, and seamless indoor-outdoor integration.
+            Designed with careful attention to natural light, ventilation, and premium material selections for sophisticated modern living.
+          </p>
+        </div>
+      </div>
+
+      <!-- Double Story House Structural Design -->
+      <div class="project-item" id="double-story-house" data-category="residential">
+        <div class="project-image">
+          <div class="swiper project-swiper">
+            <div class="swiper-wrapper">
+              <!-- Images will be injected here by JavaScript -->
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <div class="project-overlay">
+            <h3>Double Story Residence</h3>
+            <p>Structural Engineering Design</p>
+          </div>
+        </div>
+        <div class="project-details">
+          <h3>Double Story Residence</h3>
+          <div class="project-meta">
+            <span><i class="fas fa-map-marker-alt"></i> [Location], Zimbabwe</span>
+            <span><i class="fas fa-calendar-alt"></i> 2024</span>
+            <span><i class="fas fa-calculator"></i> Structural Calculations</span>
+          </div>
+          <p>
+            Complete structural engineering package for a two-story residential building.
+            Features reinforced concrete foundations, load-bearing wall designs, and steel-reinforced floor slabs.
+            Includes detailed beam and column calculations, staircase structural integration,
+            and wind-load analysis for optimal stability and safety.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Stats Counter Section -->
+<section class="stats-container">
+  <div class="container">
+    <div id="stat-card-container" class="row text-center stat-card-container">
+
+      <!-- Stat 1 -->
+      <div class="col-md-3 col-sm-6 mb-4">
+        <div class="stat-card p-4">
+          <h3 class="stat-number">3</h3>
+          <p class="stat-label">Years in<br>Operation</p>
+        </div>
+      </div>
+      
+      <!-- Stat 2 -->
+      <div class="col-md-3 col-sm-6 mb-4">
+        <div class="stat-card p-4">
+          <h3 class="stat-number">100+</h3>
+          <p class="stat-label">Completed<br>Projects</p>
+        </div>
+      </div>
+      
+      <!-- Stat 3 -->
+      <div class="col-md-3 col-sm-6 mb-4">
+        <div class="stat-card p-4">
+          <h3 class="stat-number">50+</h3>
+          <p class="stat-label">Engaged<br>Personnel</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects/References Section - Accordion -->
+<section class="projects-section">
+  <div class="container">
+    <div class="section-heading dark-blue">
+      <h2>Project References</h2>
+      <div class="heading-line"></div>
+    </div>
+    <div class="accordion"></div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+  <div class="container">
+    <h2>Have a Project in Mind?</h2>
+    <p>Contact us to discuss how we can bring our engineering expertise to your next development.</p>
+    <a href="/get-in-touch" class="btn btn-large">Get a Free Consultation</a>
+  </div>
+</section>
+{% endblock %}

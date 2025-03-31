@@ -1,0 +1,47 @@
+ /* Adjustments for mobile view */
+
+ 
+@media (max-width: 768px) {
+    .overlay h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .navbar .navbar-brand {
+        font-size: large;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 992px) {
+    .get-in-touch {
+        margin-top: 20px;
+    }
+    .get-in-touch a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar.scrolled {
+        background: rgba(204, 236, 255, 0.5) !important; /* Solid dark background */
+        backdrop-filter: none;
+    }
+
+    .offcanvas-body {
+        background: rgba(176, 226, 255, 0.6);
+    }
+
+    .navbar .navbar-nav {
+        min-height: 60%;
+        margin: 0px auto;
+        border: none;
+    }
+
+    .navbar .navbar-brand #logo {
+        height: 60px;
+        margin: 0 10px;
+    }
+}
