@@ -1,21 +1,16 @@
+/* ===== Main Navbar Styles ===== */
 .navbar {
     height: 80px;
-    padding: 0px 0px 5px;
+    padding: 0 0 5px;
     align-items: center;
     border-bottom: 1px solid #175771;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     transition: 0.3s ease-in-out;
-}
-
-.navbar.scrolled {
-    background: rgba(204, 236, 255, 0.5) !important;
-    backdrop-filter: blur(20px);
-}
-
-.navbar {
     z-index: 1000;
+    background: white;
 }
 
+/* Navbar Brand */
 .navbar .navbar-brand {
     display: flex;
     align-items: center;
@@ -24,44 +19,49 @@
     font-size: x-large;
     font-weight: bold;
 }
+
 .navbar .navbar-brand:hover {
     color: #ccbb22;
 }
 
-.navbar .navbar-nav {
-    max-width: 60%;
-    margin: 0px auto;
-    border: 1px solid #175771;
-    border-radius: 20px; 
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
-}
-
-.navbar .navbar-nav.scrolled {
-    color: #ffffff!important;
-}
-
 .navbar .navbar-brand #logo {
-    height: 70px;
+    height: 68px;
     margin: 0 10px;
 }
 
-#offcanvasNavbar .offcanvas-body .navbar-nav .nav-item .nav-link {
+/* Navbar Navigation */
+.navbar .navbar-nav {
+    max-width: 60%;
+    margin: 0 auto;
+    border: 1px solid #175771;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    background: white;
+}
+
+/* Nav Links */
+.navbar .nav-item .nav-link {
     font-size: 1.05rem;
     color: rgba(2, 31, 51, 0.9);
     transition: all 0.3s;
 }
 
-#offcanvasNavbar .offcanvas-body .navbar-nav .nav-item .nav-link:hover {
-    color: #ccbb22!important;
+.navbar .nav-item .nav-link:hover {
+    color: #ccbb22 !important;
 }
 
+.nav-link i {
+    display: none;
+}
+
+/* Offcanvas Styles */
 .offcanvas-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
-    background: rgba(176, 226, 255, 0.6);
-    box-shadow: 4px 4px 10px;
+    background: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .offcanvas-header .logo {
@@ -75,13 +75,10 @@
     transform: translateX(-50%);
     text-align: center;
     white-space: nowrap;
+    color: #003268;
 }
 
-.offcanvas-header .btn-close {
-    margin-left: auto;
-}
-
-
+/* Get In Touch Button */
 .get-in-touch {
     text-align: center;
     margin: 0 auto;
@@ -100,6 +97,5 @@
 
 .get-in-touch a:hover {
     background-color: #0c3b6e;
-    color: #ffffff;
     transform: scale(1.05);
 }

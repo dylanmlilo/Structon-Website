@@ -1,100 +1,130 @@
-  /* Contact Form Section */
-  .contact-form-section {
-    padding: 40px 0;
-    background: #f9f9f9;
-  }
-  
-  .contact-form {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  .form-group label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  .form-group input,
-  .form-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1rem;
-  }
-  
-  .submit-btn {
-    background-color: #10528c;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .submit-btn:hover {
-    background-color: #0c3b6e;
-  }
-  
-  /* Our Office Section */
-  .office-section {
-    padding: 40px 0;
-  }
+/* Contact Form Section */
+.contact-form-section {
+  padding: 40px 0;
+  background: #f9f9f9;
+}
 
-  .office-section .office-content .email {
-    color: rgb(8, 84, 171);
-  }
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
 
-  .office-section .office-content .email:hover {
-    color: #4da8da;
-  }
-  
-  .office-content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  .office-address {
-    flex: 1;
-    min-width: 300px;
-  }
-  
-  .office-address p {
-    font-size: 1.1rem;
-    margin-bottom: 10px;
-  }
-  
-  .office-address i {
-    margin-right: 10px;
-    color: #10528c;
-  }
-  
-  .office-map {
-    flex: 1;
-    min-width: 300px;
-  }
-  
-  .email {
-    color: #10528c;
-    text-decoration: none;
-  }
-  
-  .email:hover {
-    text-decoration: underline;
-  }
-  
-  /* Divider Between Sections */
-  .section-divider {
-    border: 0;
-    height: 1px;
-    background: #8f8e8e;
-    margin: 40px 0;
-  }
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.submit-btn {
+  background-color: #10528c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0c3b6e;
+}
+
+/* Our Office Section */
+.office-section {
+  padding: 40px 0;
+}
+
+.office-section .office-content .email {
+  color: rgb(8, 84, 171);
+}
+
+.office-section .office-content .email:hover {
+  color: #4da8da;
+}
+
+.office-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: #f7f7f7;
+  justify-content: center;
+  align-items: center;
+}
+
+.office-address {
+  flex: 1;
+  min-width: 300px;
+}
+
+.office-address p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.office-address i {
+  margin-right: 10px;
+  color: #10528c;
+}
+
+.office-map {
+  flex: 1;
+  min-width: 300px;
+}
+
+.email {
+  color: #10528c;
+  text-decoration: none;
+}
+
+.email:hover {
+  text-decoration: underline;
+}
+
+/* Divider Between Sections */
+.section-divider {
+  border: 0;
+  height: 1px;
+  background: #8f8e8e;
+  margin: 40px 0;
+}
+
+/* Map Responsive Styles */
+.office-map {
+  flex: 1;
+  min-width: 300px;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.map-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.office-map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}

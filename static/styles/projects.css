@@ -1,4 +1,4 @@
-/* Projects Page - Optimized CSS */
+/* Projects Page */
 .filter-section {
   padding: 30px 0;
   background: #f5f5f5;
@@ -114,8 +114,6 @@
 .project-item:hover .swiper-button-prev {
   opacity: 0.9;
 }
-
-/* Rest of your existing styles... */
 
 /* Pagination dots - subtle style */
 .swiper-pagination-bullet {
@@ -233,14 +231,6 @@
 
 
 /* Additional Styles for Plans Card */
-.project-item[data-category="religious"] .project-meta {
-  flex-wrap: wrap;
-  row-gap: 8px;
-}
-
-.project-item[data-category="religious"] .project-meta i.fa-drafting-compass {
-  color: #4CAF50; /* Green accent for design-related items */
-}
 
 .plan-details {
   margin-top: 15px;

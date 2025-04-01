@@ -94,8 +94,8 @@ p, .footer-nav li {
 
 .address-line {
     display: inline-block;
-    padding-left: 20px; /* Adjust this value to control indentation */
-    text-indent: -20px; /* This pulls the text back to align with the icon */
+    padding-left: 20px;
+    text-indent: -20px;
   }
   
 .address-line:before {
