@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     '../static/images/nice-house.png',
     '../static/images/engineers-onsite.jpg',
     '../static/images/workers-placing-new-coating-asphalt-road.jpg',
-    '../static/images/excavator-digging.jpg',
+    '../static/images/structon-site.jpg',
     '../static/images/recently-finished-house2.jpg'
   ];
   
