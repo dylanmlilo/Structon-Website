@@ -6,6 +6,10 @@
         height: 60px;
     }
 
+    .navbar .navbar-toggler {
+        border: 2px solid #10528c !important;
+    }
+
     .get-in-touch {
         margin-top: 20px;
     }
@@ -45,6 +49,7 @@
     .stat-card {
         width: 200px;
     }
+
 
     /* Team & Trades */
     .team-container,

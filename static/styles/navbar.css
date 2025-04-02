@@ -104,6 +104,7 @@
 /* navbar toggler */
 /* Custom Toggler - Recommended */
 .navbar .navbar-toggler {
+    border: none;
     border-radius: 6px;
     padding: 0.65rem;
     transition: all 0.3s ease;
