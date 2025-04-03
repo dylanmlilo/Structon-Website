@@ -72,7 +72,15 @@ export const projectsData = {
     },
     "luxury-house-plan": {
         images: [
-            "../static/images/nice-house.png"
+            "../static/images/e-moyo-plan-1.png",
+            "../static/images/e-moyo-plan-2.png",
+            "../static/images/e-moyo-plan-3.png",
+            "../static/images/e-moyo-plan-4.png",
+            "../static/images/e-moyo-plan-5.png",
+            "../static/images/e-moyo-plan-6.png",
+            "../static/images/e-moyo-plan-7.png",
+            "../static/images/e-moyo-plan-8.png",
+            "../static/images/e-moyo-plan-9.png"
         ],
         title: "Luxury Residential House",
         category: "residential",

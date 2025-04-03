@@ -2,13 +2,13 @@ document.addEventListener('DOMContentLoaded', function() {
   // Image URLs
   const images = [
     '../static/images/e-moyo-plan-1.png',
-    '../static/images/construction.jpg',
     '../static/images/r2-full.png',
+    '../static/images/r2-pool.png',
     '../static/images/nice-house.png',
     '../static/images/engineers-onsite.jpg',
     '../static/images/workers-placing-new-coating-asphalt-road.jpg',
     '../static/images/structon-site.jpg',
-    '../static/images/recently-finished-house2.jpg'
+    '../static/images/recently-finished-house5.jpg'
   ];
   
   // Shuffle the images array
