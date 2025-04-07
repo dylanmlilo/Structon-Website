@@ -1,0 +1,13 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Structon Investments",
+    "url": "https://www.structoninvestments.co.zw",
+    "logo": "https://www.structoninvestments.co.zw/static/images/structon-logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+263 77 123 4567",
+      "contactType": "Customer Service"
+    }
+}
+  

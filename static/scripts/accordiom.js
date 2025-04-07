@@ -1,4 +1,4 @@
-// projects-accordion.js
+// accordiom.js
 
 import { projects } from './ref-projects.js';
 
