@@ -1,7 +1,15 @@
 import { teamBios } from './bios-data.js';
 
-// Modal functionality
-document.addEventListener('DOMContentLoaded', function() {
+function initProfileBios() {
+  // Check if required elements exist
+  const bioModal = document.getElementById('bio-modal');
+  const modalBody = document.getElementById('modal-body');
+  const closeModal = document.querySelector('.close-modal');
+  
+  // Exit if not on a page with the modal
+  if (!bioModal || !modalBody || !closeModal) return;
+
+  // Modal toggle functionality
   document.querySelectorAll('.bio-toggle').forEach(button => {
     button.addEventListener('click', function() {
       const memberId = this.getAttribute('data-member');
@@ -23,20 +31,20 @@ document.addEventListener('DOMContentLoaded', function() {
         ` : ''}
       `;
       
-      document.getElementById('modal-body').innerHTML = modalContent;
-      document.getElementById('bio-modal').classList.add('active');
-      document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
+      modalBody.innerHTML = modalContent;
+      bioModal.classList.add('active');
+      document.body.style.overflow = 'hidden';
     });
   });
   
   // Close modal
-  document.querySelector('.close-modal').addEventListener('click', function() {
-    document.getElementById('bio-modal').classList.remove('active');
-    document.body.style.overflow = 'auto'; // Re-enable scrolling
+  closeModal.addEventListener('click', function() {
+    bioModal.classList.remove('active');
+    document.body.style.overflow = 'auto';
   });
   
   // Close when clicking outside content
-  document.getElementById('bio-modal').addEventListener('click', function(e) {
+  bioModal.addEventListener('click', function(e) {
     if (e.target === this) {
       this.classList.remove('active');
       document.body.style.overflow = 'auto';
@@ -45,9 +53,12 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Close with Escape key
   document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') {
-      document.getElementById('bio-modal').classList.remove('active');
+    if (e.key === 'Escape' && bioModal.classList.contains('active')) {
+      bioModal.classList.remove('active');
       document.body.style.overflow = 'auto';
     }
   });
-});
+}
+
+// Wait for full page load
+window.addEventListener('load', initProfileBios);
